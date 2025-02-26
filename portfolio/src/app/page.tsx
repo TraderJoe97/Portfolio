@@ -143,6 +143,22 @@ export default function Home() {
                   githubRepo="https://github.com/TraderJoe97/CS20230347_WFO2407_Group-B_Joseph-Monakedi_JSL11.git"
                   technologies={["HTML", "CSS", "JavaScript"]}
                 />
+                <ProjectCard
+                  title="Joes van life"
+                  description="a van rental platform that allows users to browse and rent vans."
+                  image="/screencapture-joesvanlife-netlify-app-2025-02-27-00_41_11.png"
+                  liveSite="https://joesvanlife.netlify.app/"
+                  githubRepo="https://github.com/TraderJoe97/CS20230347_WFO2407_Group-B_Joseph-Monakedi_DJS08"
+                  technologies={["React", "tailwindCSS", "JavaScript","React-Router"]}
+                />
+                <ProjectCard
+                  title="Web Dashboard"
+                  description="a web dashboard that uses APIs to display real-time data."
+                  image="/brave_screenshot_dashboard.png"
+                  liveSite="https://traderjoe97.github.io/Module_09_CS20230347_WFO2407_Group-B_Joseph-Monakedi_JSL09/"
+                  githubRepo="https://github.com/TraderJoe97/Module_09_CS20230347_WFO2407_Group-B_Joseph-Monakedi_JSL09"
+                  technologies={["React", "tailwindCSS", "JavaScript","React-Router"]}
+                />
               </div>
             </div>
           </section>
