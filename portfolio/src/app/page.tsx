@@ -1,5 +1,5 @@
 "use client"
-
+import Image from "next/image"
 import Link from "next/link"
 import { Mail, Github, Linkedin } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -13,7 +13,7 @@ import { AnimatedRGBBorder } from "./components/animated-rgb-border"
 export default function Home() {
   return (
     <div className="min-h-screen bg-background">
-      <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur-sm supports-backdrop-filter:bg-background/60">
         <div className="container flex h-14 items-center">
             <Link className="mr-6 flex items-center space-x-2" href="/">
               <span className="font-bold sm:inline-block">{"<Joseph Monakedi/>"}</span>
@@ -85,8 +85,8 @@ export default function Home() {
                 About Me
               </h2>
               <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-                <AnimatedRGBBorder className="w-full aspect-square">
-                <img src="/Avatar.jpg" alt="Joseph Monakedi" className="rounded-lg aspect-square" />
+                <AnimatedRGBBorder>
+                <Image src="/Avatar.jpg" width={500} height={500} alt="Joseph Monakedi" className="rounded-lg aspect-square" />
                 </AnimatedRGBBorder>
                 <div className="max-w-2xl">
                   <h3 className="text-2xl font-semibold mb-2">Joseph Monakedi</h3>
