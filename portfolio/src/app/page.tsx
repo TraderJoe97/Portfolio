@@ -1,5 +1,5 @@
 "use client"
-import Image from "next/image"
+
 import Link from "next/link"
 import { Mail, Github, Linkedin } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -50,7 +50,7 @@ export default function Home() {
                     Welcome to My Portfolio
                   </h1>
                   <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                    I'm a front-end developer passionate about creating amazing web experiences.
+                    I&apos;m a front-end developer passionate about creating amazing web experiences.
                   </p>
                 </div>
                 <div className="space-x-4">
@@ -92,7 +92,7 @@ export default function Home() {
                   <h3 className="text-2xl font-semibold mb-2">Joseph Monakedi</h3>
                   <h4 className="text-xl text-gray-600 dark:text-gray-400 mb-4">Front-end Developer</h4>
                   <p className="text-gray-600 dark:text-gray-400">
-                    I'm a passionate front-end developer currently honing my skills at Codespace Academy. I love
+                    I&apos;m a passionate front-end developer currently honing my skills at Codespace Academy. I love
                     building beautiful and interactive web applications.
                   </p>
                 </div>
