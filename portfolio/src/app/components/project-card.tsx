@@ -28,8 +28,8 @@ export default function ProjectCard({
   }
 
   return (
-        <AnimatedRGBBorder>
-    <Card className="overflow-hidden rounded-lg ">
+        <AnimatedRGBBorder className="flex">
+    <Card className="flex flex-col overflow-hidden h-full rounded-lg ">
         <div className="relative aspect-video">
           <Image
             src={image || "/placeholder.svg"}
@@ -38,9 +38,9 @@ export default function ProjectCard({
             className="object-cover transition-transform group-hover:scale-105"
           />
         </div>
-        <CardContent className="">
+        <CardContent className="flex flex-col flex-grow">
           <h3 className="font-semibold text-xl mb-2">{title}</h3>
-          <p className="text-sm  mb-4">{description}</p>
+          <p className="text-sm mb-4 flex-grow line-clamp-3">{description}</p>
           <div className="flex flex-wrap gap-2 mb-4">
             {technologies.map((tech) => (
               <span
@@ -52,7 +52,7 @@ export default function ProjectCard({
             ))}
           </div>
         </CardContent>
-        <CardFooter className="p-4 pt-0 flex flex-col sm:flex-row gap-2">
+        <CardFooter className="p-4 pt-0 flex flex-end flex-col sm:flex-row gap-2">
           <Button
             asChild
             variant="outline"
