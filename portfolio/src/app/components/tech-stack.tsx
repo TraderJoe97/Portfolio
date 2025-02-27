@@ -7,7 +7,7 @@ export default function TechStack() {
   return (
     <div className="grid gap-2 md:gap-4 lg:gap-6 grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8">
       {technologies.map((tech) => (
-        <Card key={tech} className="p-4 flex items-center justify-center">
+        <Card key={tech} className="p-4 bg-gradient-to-r from-zinc-400 via-zinc-300 to-gray-400 flex items-center justify-center">
           <div className="flex flex-col items-center">
             <Image
               src={`/icons/${tech.toLowerCase()}.svg`}
