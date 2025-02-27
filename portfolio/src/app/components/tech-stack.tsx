@@ -5,7 +5,7 @@ const technologies = ["HTML", "CSS", "JavaScript", "React", "Redux", "firebase" 
 
 export default function TechStack() {
   return (
-    <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+    <div className="grid gap-2 md:gap-4 lg:gap-6 grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8">
       {technologies.map((tech) => (
         <Card key={tech} className="p-4 flex items-center justify-center">
           <div className="flex flex-col items-center">
