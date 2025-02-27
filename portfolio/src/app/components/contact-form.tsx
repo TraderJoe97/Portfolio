@@ -43,7 +43,7 @@ export default function ContactForm() {
         <Button type="submit" className="w-full" disabled={state.submitting}>
           {state.submitting ? "Sending..." : "Send Message"}
         </Button>
-        {state.succeeded && <p className="text-sm text-center mt-4 text-muted-foreground">Thanks for your message! I'll get back to you soon.</p>}
+        {state.succeeded && <p className="text-sm text-center mt-4 text-muted-foreground">Thanks for your message! I&apos;ll get back to you soon.</p>}
       </form>
     </Card>
   )
