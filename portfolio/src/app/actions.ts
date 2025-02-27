@@ -1,5 +1,5 @@
 "use server"
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm } from '@formspree/react';
 export async function submitContactForm(formData: FormData) {
   const [state, handleSubmit] = useForm("xkgoldoo");
 
