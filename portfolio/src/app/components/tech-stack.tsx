@@ -16,7 +16,7 @@ export default function TechStack() {
               height={40}
               className="mb-2"
             />
-            <span className="text-sm font-medium">{tech}</span>
+            <span className="text-sm font-medium text-black">{tech}</span>
           </div>
         </Card>
       ))}
