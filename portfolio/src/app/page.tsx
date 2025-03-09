@@ -121,11 +121,11 @@ export default function Home() {
               <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                 <ProjectCard
                   title="insta-meets"
-                  description="A podcast streaming platform that allows users to listen to their favorite podcasts."
+                  description="A video chat platform that allows users to connect with each other in real-time."
                   image="/insta-meets-vercel-app.png"
                   liveSite="https://insta-meets.vercel.app/"
                   githubRepo="https://github.com/TraderJoe97/video_chat_site"
-                  technologies={["React", "TailwindCSS", "TypeScript", "Next.js, Node.js, MongoDB, Express.js, Socket.io, webRTC", "simple-peer", "shadCN"]}
+                  technologies={["React", "TailwindCSS", "TypeScript", "Next.js", "Node.js", "MongoDB", "Express.js", "Socket.io", "webRTC", "simple-peer", "shadCN"]}
                 />
                 <ProjectCard
                   title="Joes-Podcast_App"
