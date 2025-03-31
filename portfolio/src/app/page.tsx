@@ -9,6 +9,7 @@ import ContactForm from "./components/contact-form"
 import { ScrollAnimation } from "./components/scroll-animation"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { AnimatedRGBBorder } from "./components/animated-rgb-border"
+import { ImWhatsapp } from "react-icons/im";
 
 export default function Home() {
   return (
@@ -70,6 +71,12 @@ export default function Home() {
                     <Button variant="outline" size="icon">
                       <Mail className="h-4 w-4" />
                       <span className="sr-only">Email</span>
+                    </Button>
+                  </Link>
+                   <Link href="https://wa.me/+27663124810">
+                    <Button variant="outline" size="icon">
+                      <ImWhatsapp className="h-4 w-4" />
+                      <span className="sr-only">Whatsapp</span>
                     </Button>
                   </Link>
                 </div>
