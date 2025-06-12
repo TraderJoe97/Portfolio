@@ -32,7 +32,7 @@ export default function Home() {
               </Link>
             </nav>
           </div>
-          <a className="ml-auto mr-5" href="https://drive.google.com/file/d/1EKOeaLdOMKvVFbvxUIarCT0rHmTc76Wz/view?usp=sharing">
+          <a className="ml-auto mr-5" href="https://simple-cv-olive.vercel.app/">
           <Button variant="outline" >
             Resume
           </Button>
