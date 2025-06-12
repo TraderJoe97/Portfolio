@@ -32,7 +32,7 @@ export default function Home() {
               </Link>
             </nav>
           </div>
-          <a className="ml-auto mr-5" href="https://docs.google.com/document/d/1uaLyRdcl3IOFr_qLL7bGMHDvblrTyJr69-3ceLfruvM/export?format=pdf" download>
+          <a className="ml-auto mr-5" href="https://drive.google.com/file/d/1EKOeaLdOMKvVFbvxUIarCT0rHmTc76Wz/view?usp=sharing">
           <Button variant="outline" >
             Resume
           </Button>
